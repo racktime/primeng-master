@@ -1,0 +1,31 @@
+{
+  "name": "primeng",
+  "version": "v1.0.0-beta.1-SNAPSHOT",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "angular2": "2.0.0-beta.12",
+    "systemjs": "0.19.24",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.6",
+    "primeui": "4.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.1.0",
+    "retyped-socket.io-client-tsd-ambient": "^1.4.4-0",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
+  },
+  "dependencies": {
+    "angular-masonry": "^0.16.0",
+    "socket.io-client": "^1.4.5"
+  }
+}

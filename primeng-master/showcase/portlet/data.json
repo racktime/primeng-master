@@ -1,0 +1,32 @@
+﻿[
+  {
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest",
+    "menuName": "PortletTest 글이 잘나오냐?"
+  },
+  {
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest2",
+    "menuName": "PortletTest2"
+  },
+  {
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest2",
+    "menuName": "PortletTest2"
+  },
+  {
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest2",
+    "menuName": "PortletTest2"
+  },
+  {
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest2",
+    "menuName": "PortletTest2"
+  },
+  {
+    "component": "PortletTest2",
+    "path" :  "./showcase/portlet/portletTest2",
+    "menuName": "PortletTest2"
+  }
+]

@@ -1,0 +1,253 @@
+﻿/*.ep-main {overflow:hidden;} ashKcuf */
+.ext-raster {overflow:hidden; overflow-y:auto; width:100%; min-width:700px;}
+
+.ep-area {float:left; width:70%; position:relative; border-right:1px solid #bbb;}
+.ep-area .scrollbar-y .viewport {height:730px}
+.ep-area.extend {float:none; width:100%;}
+
+.ep-area .ext-raster {padding:15px; }
+.ep-area .ext-raster > .titarea {width:100%; overflow:hidden; margin:0 auto; padding:0 0 15px; position:relative;}
+.ep-area .ext-raster > .titarea h3 {font-size:18px; font-weight:bold; margin:0 0 8px; color:#555;}
+.ep-area .ext-raster > .titarea span {font-size:11px; color:#999;}
+.ep-area .ext-raster > .titarea .btn-toggle {position:absolute; right:0; top:3px;}
+.ep-area .ext-raster > .titarea .btn-toggle a .fa {width:18px ! important; font-size:18px; line-height:18px; color:#000;}
+
+.ep-area .progress-width{width:calc(100% - 700px); float:left; position:relative; min-height:1px; padding:0 20px}
+.ep-area .progress-num-width{width:700px; float:left; position:relative; min-height:1px;}
+
+.ep-main {overflow:hidden; position: relative; max-width: 1600px; margin: 0 auto;}
+/*p-container {overflow:hidden; position: relative; max-width: 1600px; margin: 0 auto;}*/
+
+.type-box01{position: absolute; margin:5px 0 0 5px; height:130px; width:238px; -webkit-box-sizing: border-box; padding:0 0 10px 0;}
+.type-box02{position: absolute; margin:5px 0 0 5px; height:130px; width:480px; background:#d2d2d2;}
+.type-box01.type-graph {padding:0 1px;}
+.type-list {position: absolute; margin:5px 0 0 5px; height:130px;}
+
+.ep-main > div .titarea {height: 15px; color:#fff; overflow:hidden; padding:6px 10px; background-color:rgba(0, 0, 0, 0.2); cursor: move; }
+.ep-main > div.type-box02 .titarea, .ep-main > div.type-graph .titarea {color:#fff; border-bottom:0; overflow:hidden;}
+
+.ep-main .setarea {float:right;line-height:14px}
+.ep-main .setarea a + a {margin:0 2px;}
+.ep-main .setarea a i {width:auto; color:rgba(0,0,0,.6);}
+.ep-main .rt-data {clear: both; display: block; text-align:right; position:absolute;bottom:0;left:0; width:100%;padding:5px 0;line-height:14px; text-transform: uppercase;}
+.ep-main .rt-data span { color:#fff; font-size:12px; margin-right:10px; }
+.ep-main .rt-data i {color:#fff; font-size:14px; vertical-align:middle; }
+.ep-main .rt-data .share {background:url('../images/comm/ico_share.png') 0 0 no-repeat; width:12px; height:13px; display:inline-block; cursor:pointer}
+.ep-main .share.blk {background:url('../images/comm/ico_share_blk.png') 0 50% no-repeat; width:12px; height:14px; display:inline-block; cursor:pointer; vertical-align:top; margin-right:3px}
+
+.ep-data {text-align:center; padding:21px 0 10px; height:62px}
+.ep-data span {color:rgba(0,0,0,1); font-size:18px; font-weight:400; display:block; line-height:12px; text-shadow:1px 1px 1px rgba(255,255,255,.15);}
+.ep-data strong {display:inline-block; font-size:32px; font-weight:600; color:#fff; line-height:30px; margin:0 0 15px 0;}
+.ep-data strong span {font-size:32px; font-weight:600; color:#fff; line-height:30px; }
+.ep-data strong.warning {background:url('../images/comm/ico_warning.png') 0 0 no-repeat; padding-left:36px; margin:0 0 15px -5px}
+.ep-data i {display:inline-block; font-size:20px; width:20px; height:20px; line-height:100%; margin:5px 0 0 -25px; color:#f6b4c4; vertical-align:top;}
+
+.ep-main .set-txt {text-align:center; position:relative; color:rgba(255,255,255,1); padding:25px 0 0;}
+.type-box02 .set-txt {padding:30px 0 0;}
+.type-box01 .set-txt p a, .type-box02 .set-txt p a {color:rgba(255,255,255,1); text-decoration:none;}
+.type-box01 .set-txt p a:hover, .type-box02 .set-txt p a:hover {color:#fff;}
+.set-txt .bt-close {position:absolute; right:10px; top:0; line-height:14px}
+.type-box02 .set-txt .bt-close {right:10px; top:15px;}
+.set-txt .bt-close i {color:rgba(0,0,0,.35);}
+
+
+.bisection, .trisection, .qrtsection {overflow:hidden; padding:21px 1.5% 10px 1.5%;}
+.bisection > div.ep-data {width:49.9%; float:left; padding:0;}
+.trisection > div.ep-data {width:32.9%; float:left; padding:0;}
+.qrtsection > div.ep-data {width:24.9%; float:left; padding:0;}
+.bisection > div.ep-data strong, .trisection > div.ep-data strong, .qrtsection > div.ep-data strong {margin:0 0 15px;}
+.bisection > div + div, .trisection > div + div, .qrtsection > div + div {border-left:1px solid rgba(255,255,255,.35);}
+
+/* Graph ���� */
+.type-box01 .graph-area {display:none;}
+.type-graph .ep-data {text-align:center; padding:5px 0 8px 0; background:#fff; border-bottom-left-radius:2px; border-bottom-right-radius:2px; -webkit-border-bottom-left-radius:2px; -webkit-border-bottom-right-radius:2px;}
+.type-graph .ep-data strong {font-size:20px; color:#555; line-height:20px; margin:0;}
+.type-graph .graph-area {height:38px; margin:0 0 4px; display:block;}
+.type-graph .ep-data span {font-size:12px; color:#666; font-weight:bold;}
+
+/* table ���� */
+.type-list {width:480px; height:265px; background:#ddd ! important;}
+.type-list > div .titarea {color:#555; padding:6px 4px 6px 10px; margin-bottom:6px}
+.type-list > div .titarea h4 {color:rgba(0,0,20,.8); text-shadow:none; font-weight:bold;}
+.type-list > div .titarea h5  {color:rgba(0,0,20,.8); text-shadow:none;}
+.type-list .ep-box {margin:5px 5px 0; height:255px; background:#fff;}
+.type-list .scrollbar-y .viewport {height:172px; overflow:hidden;}
+.type-list .ep-data {text-align:center; padding:5px 10px 0; border-top:0; border-bottom-left-radius:2px; border-bottom-right-radius:2px; -webkit-border-bottom-left-radius:2px; -webkit-border-bottom-right-radius:2px;}
+.type-list table {width:100%;}
+.type-list table th {color:#fff; text-align:center; font-size:12px; padding:4px 0; background:#848484; border-left:1px solid rgba(255,255,255,.3);}
+.type-list table td {border-top:1px solid rgba(255,255,255,.8); border-left:1px solid #fff; color:#777; padding:4px 10px 0 10px; font-size:12px; background:#f7f7f7;}
+.type-list table tbody tr:first-child td {border-top:0;}
+.type-list table tr:hover td {background:rgba(0,0,0,.05);}
+.type-list table tfoot td {background:rgba(0,0,0,.15); color:#000; font-size:18px; border-top:1px solid #fff; border-left:1px solid rgba(255,255,255,.5);} 
+.type-list table tfoot tr:hover td {background:rgba(0,0,0,.15);}
+
+.type-list .titarea .warning {width: 20px;
+    height: 15px;
+    line-height: 15px;
+	display:inline-block;
+	position:relative;
+	margin:0 0 0 5px;	
+    background: url('../images/comm/ico_warning_s.png') 0 0 no-repeat;
+	vertical-align:top;}
+	
+.type-list table .warning {width: 20px;
+    height: 15px;
+    line-height: 15px;
+	display:inline-block;
+	position:relative;
+	margin:2px 0 0 0;
+    background: url('../images/comm/ico_warning_s.png') 0 0 no-repeat;
+	vertical-align:top;}
+
+.common_list table {width:100%}
+.common_list table thead th{color:#fff; text-align:center; font-size:12px; padding:5px 0; background:#848484; border-left:1px solid rgba(255,255,255,.3);}
+.common_list.bg_blue table thead th {color: #1c5e7d; background: #d9edf7;}
+.common_list table tbody td {border-top:1px solid rgba(255,255,255,.8); border-left:1px solid #fff; color:#777; padding:5px 0; font-size:12px; background:#f7f7f7; text-align:center}
+.common_list table tfoot td {background:rgba(0,0,0,.15); color:#000; font-size:18px; border-top:1px solid #fff; border-left:1px solid rgba(255,255,255,.5);}  
+.common_list .viewport {overflow:hidden}
+
+.type-list-auth {width:480px; height:465px; background:#ddd ! important;}
+.type-list .set-txt {height:191px; padding:105px 0 0; margin:10px;}
+.type-list .set-txt a {color:#333; font-size:13px}
+ 
+/* box color */
+.box-color1 {background:rgb(93, 109, 139)!important}
+.box-color1 th {background:rgb(93, 109, 139)!important}
+.box-color1 .initArea .titarea h4 {color:#fff!important}
+.box-color1 .set-txt a {color:#fff!important}
+
+.box-color2 {background:rgb(104, 138, 203)!important}
+.box-color2 th {background:rgb(104, 138, 203)!important}
+.box-color2 .initArea .titarea h4 {color:#fff!important}
+.box-color2 .set-txt a {color:#fff!important}
+
+.box-color3 {background:rgb(136, 168, 219)!important}
+.box-color3 th {background:rgb(136, 168, 219)!important}
+.box-color3 .initArea .titarea h4 {color:#fff!important}
+.box-color3 .set-txt a {color:#fff!important}
+
+.box-color4 {background:rgb(168, 198, 234)!important}
+.box-color4 th {background:rgb(168, 198, 234)!important}
+.box-color4 .initArea .titarea h4 {color:#fff!important}
+.box-color4 .set-txt a {color:#fff!important}
+
+.box-color5 {background:rgb(155, 187, 89)!important}
+.box-color5 th {background:rgb(155, 187, 89)!important}
+.box-color5 .initArea .titarea h4 {color:#fff!important}
+.box-color5 .set-txt a {color:#fff!important}
+
+.box-color6 {background:rgb(197, 41, 67)!important}
+.box-color6 th {background:rgb(197, 41, 67)!important}
+.box-color6 .initArea .titarea h4 {color:#fff!important}
+.box-color6 .set-txt a {color:#fff!important}
+
+.box-color7 {background:rgb(213, 109, 95)!important}
+.box-color7 th {background:rgb(213, 109, 95)!important}
+.box-color7 .initArea .titarea h4 {color:#fff!important}
+.box-color7 .set-txt a {color:#fff!important}
+
+.box-color8 {background:rgb(229, 181, 97)!important}
+.box-color8 th {background:rgb(229, 181, 97)!important}
+.box-color8 .initArea .titarea h4 {color:#fff!important}
+.box-color8 .set-txt a {color:#fff!important}
+
+.box-color9 {background:rgb(229, 181, 97)!important}
+.box-color9 th {background:rgb(229, 181, 97)!important}
+.box-color9 .initArea .titarea h4 {color:#fff!important}
+.box-color9 .set-txt a {color:#fff!important}
+
+.box-color10 {background:rgb(133, 147, 173)!important}
+.box-color10 th {background:rgb(133, 147, 173)!important}
+.box-color10 .initArea .titarea h4 {color:#fff!important}
+.box-color10 .set-txt a {color:#fff!important}
+
+.box-color11 {background:rgb(133, 147, 173)!important}
+.box-color11 th {background:rgb(133, 147, 173)!important}
+.box-color11 .initArea .titarea h4 {color:#fff!important}
+.box-color11 .set-txt a {color:#fff!important}
+
+.box-color12 {background:rgb(69, 95, 84)!important}
+.box-color12 th {background:rgb(69, 95, 84)!important}
+.box-color12 .initArea .titarea h4 {color:#fff!important}
+.box-color12 .set-txt a {color:#fff!important}
+
+.box-color13 {background:rgb(107, 147, 130)!important}
+.box-color13 th {background:rgb(107, 147, 130)!important}
+.box-color13 .initArea .titarea h4 {color:#fff!important}
+.box-color13 .set-txt a {color:#fff!important}
+
+.box-color14 {background:rgb(164, 161, 153)!important}
+.box-color14 th {background:rgb(164, 161, 153)!important}
+.box-color14 .initArea .titarea h4 {color:#fff!important}
+.box-color14 .set-txt a {color:#fff!important}
+
+.box-color15 {background:rgb(164, 161, 153)!important}
+.box-color15 th {background:rgb(164, 161, 153)!important}
+.box-color15 .initArea .titarea h4 {color:#fff!important}
+.box-color15 .set-txt a {color:#fff!important}
+
+.box-color16 {background:rgb(89, 71, 67)!important}
+.box-color16 th {background:rgb(89, 71, 67)!important}
+.box-color16 .initArea .titarea h4 {color:#fff!important}
+.box-color16 .set-txt a {color:#fff!important}
+
+.box-color17 {background:rgb(229, 181, 97)!important}
+.box-color17 th {background:rgb(229, 181, 97)!important}
+.box-color17 .initArea .titarea h4 {color:#fff!important}
+.box-color17 .set-txt a {color:#fff!important}
+
+.box-color18 {background:rgb(89, 71, 67)!important}
+.box-color18 th {background:rgb(89, 71, 67)!important}
+.box-color18 .initArea .titarea h4 {color:#fff!important}
+.box-color18 .set-txt a {color:#fff!important}
+
+.box-color19 {background:rgb(89, 71, 67)!important}
+.box-color19 th {background:rgb(89, 71, 67)!important}
+.box-color19 .initArea .titarea h4 {color:#fff!important}
+.box-color19 .set-txt a {color:#fff!important}
+
+.box-color20 {background:rgb(89, 71, 67)!important}
+.box-color20 th {background:rgb(89, 71, 67)!important}
+.box-color20 .initArea .titarea h4 {color:#fff!important}
+.box-color20 .set-txt a {color:#fff!important}
+
+
+.type-list.bg-orange .set-txt a {color:#fff; font-size:13px}
+.bg-darkblue {background:#3c5b9b!important;}
+.bg-darkblue .initArea .titarea h4,
+.bg-darkblue .initArea .titarea .setarea a i{color:#fff!important}
+.type-list.bg-darkblue .set-txt a {color:#fff; font-size:13px}
+.bg-darkblue th{background:#3c5b9b!important;}
+.bg-darkred {background:#de0307!important;}
+.bg-darkred th{background:#de0307!important;}
+.bg-darkred .initArea .titarea h4,
+.bg-darkred .initArea .titarea .setarea a i{color:#fff!important}
+.type-list.bg-darkred .set-txt a {color:#fff; font-size:13px}
+.bg-yellowgreen {background:#a6c53c!important;}
+.bg-yellowgreen th{background:#a6c53c!important;}
+.type-list.bg-yellowgreen .set-txt a {color:#fff; font-size:13px}
+.bg-gray {background:#999!important;}
+.bg-gray th{background:#999!important;}
+
+.initArea .titarea{padding:8px 15px!important}
+
+.type-list.bg-green table th {color:#fff; background:#0aa699;}
+.type-list.bg-green  table tr:hover td {background:rgba(10,166,153,.05); color:#47a29a;}
+.type-list.bg-green table tfoot td {background:rgba(10,166,153,.2); color:#000;} 
+.type-list.bg-green table tfoot tr:hover td {background:rgba(10,166,153,.2); color:#000;}
+.type-list.bg-red table th {color:#fff; background:#f35958;}
+.type-list.bg-red table tr:hover td {background:rgba(243,89,88,.08); color:#bc4443;}
+.type-list.bg-red table tfoot td {background:rgba(243,89,88,.18); color:#000;} 
+.type-list.bg-red table tfoot tr:hover td {background:rgba(243,89,88,.18); color:#000;}
+.type-list.bg-violet table th {color:#fff; background:#735f87;}
+.type-list.bg-violet table tr:hover td {background:rgba(115,95,135,.12); color:#764aa2;}
+.type-list.bg-violet table tfoot td {background:rgba(115,95,135,.2); color:#000;} 
+.type-list.bg-violet table tfoot tr:hover td {background:rgba(115,95,135,.2); color:#000;}
+.type-list.bg-blue table th {color:#fff; background:#3198e1;}
+.type-list.bg-blue table tr:hover td {background:rgba(49,152,225,.1); color:#084c7c;}
+.type-list.bg-blue table tfoot td {background:rgba(49,152,225,.18); color:#000;} 
+.type-list.bg-blue table tfoot tr:hover td {background:rgba(49,152,225,.18); color:#000;}
+
+@media only screen and (min-width : 300px){
+	.ep-area {float:none; width:100%; border:0;}
+}

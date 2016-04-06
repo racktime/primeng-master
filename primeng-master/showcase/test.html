@@ -1,0 +1,33 @@
+﻿
+<pop1 #pop1 (addEvent)="addEvent($event)"></pop1>
+<div class="ext-raster" style="height: 899px;">
+    <div class="ep-area extend">
+        <div>
+            <!-- <a href="#" class="btn-left"><i class="fa fa-chevron-left"></i></a> -->
+            <div class="pull-left">
+                <a href="#" class="btn btn-default tooltip-top" title="Portlet 추가 설정">
+                    <i class="fa fa-cog" (click)="pop1.show()"></i>
+                </a>
+                <a href="#" class="btn btn-default tooltip-top" title="공지사항">
+                    <i class="fa fa-volume-up"></i>
+                </a>
+                <a href="#authorize" class="btn btn-default tooltip-top" title="권한조회/부여">
+                    <i class="fa fa-info-circle"></i>
+                </a>
+                <a href="#standardInfo" class="btn btn-default tooltip-top" title="기준 정보 설정">
+                    <i class="fa fa-wrench"></i>
+                </a>
+            </div>
+        </div>
+        <!--
+        ng-content  이용???
+        여기서 보일 부분만 표시 p tag like ??
+        -->
+
+        <p-container>
+           
+        </p-container>
+
+        <sample-jsonp></sample-jsonp>
+    </div>
+</div>

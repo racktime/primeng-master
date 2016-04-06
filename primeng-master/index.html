@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <title>tests</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/primeui/themes/delta/theme.css" />
+    <link rel="stylesheet" type="text/css" href="showcase/resources/icons/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="showcase/resources/css/prism.css" />
+    <link rel="stylesheet" type="text/css" href="showcase/resources/css/fullcalendar.css" />
+    <link rel="stylesheet" type="text/css" href="showcase/resources/css/quill.snow.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/primeui/primeui-ng-all.min.css" />
+    <link rel="stylesheet" type="text/css" href="showcase/resources/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="showcase/resources/css/ds.css" />
+
+
+    <!-- 1. Load libraries -->
+    <script src="showcase/resources/js/jquery.js"></script>
+    <script src="showcase/resources/js/jquery-ui.js"></script>
+ 
+
+    <!-- IE required polyfills, in this exact order -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="node_modules/angular2/bundles/router.dev.js"></script>
+    <script src="node_modules/angular2/bundles/http.dev.js"></script>
+
+    <script src="node_modules/primeui/primeui-ng-all.min.js"></script>
+    <script src="node_modules/socket.io-client/socket.io.js"></script>
+
+    <script src="showcase/resources/js/prism.js" data-manual></script>
+    <script src="showcase/resources/js/charts.min.js"></script>
+    <script src="showcase/resources/js/moment.js"></script>
+    <script src="showcase/resources/js/fullcalendar.js"></script>
+    <script src="showcase/resources/js/quill.min.js"></script>
+    <script src="showcase/resources/js/site.js"></script>
+
+    <script src="showcase/resources/js/jquery.shapeshift.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+        System.config({
+            packages: {
+                "showcase": {
+                    format: 'cjs',
+                    defaultExtension: 'js'
+                },
+                "components": {
+                    format: 'cjs',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('showcase/boot').then(null, console.error.bind(console));
+    </script>
+</head>
+
+<body>
+    <primeng-showcase>
+        <div style="margin: 0 auto; width: 50%; margin-top: 200px">
+            loading
+        </div>
+    </primeng-showcase>
+</body>
+
+</html>
